@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="30dp"
+        android:text="Grade Calculator"
+        android:textAlignment="center"
+        android:textColor="#2F0459"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/quize"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="55dp"
+        android:background="#997F25D9"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="number"
+        android:textAlignment="center"
+
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/hmw"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="35dp"
+        android:background="#997F25D9"
+        android:ems="10"
+        android:hint="Homework %25"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#F2E205"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/mid"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="35dp"
+        android:background="#997F25D9"
+        android:ems="10"
+        android:hint="Midterm %30"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#F2E205"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="35dp"
+        android:background="#997F25D9"
+        android:ems="10"
+        android:hint="Finals %30"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#F2E205"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="18sp" />
+
+    <android.widget.Button
+        android:id="@+id/calc"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:background="#FAEA63"
+        android:fontFamily="sans-serif-medium"
+        android:text="Calculate"
+        android:textAlignment="center"
+        android:textColor="#2F0459"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="35dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#2F0459"
+        android:textSize="18sp" />
+
+</LinearLayout>
